@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="appinfo">- build type: debug\n
-            - flavor: preprod\n
-            - version name: -preprod\n
-            - BASE_URL: https://preprod.myserver.com/</string>
+
 </resources>
