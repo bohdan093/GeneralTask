@@ -9,9 +9,19 @@ import android.widget.TextView
 import java.util.*
 
 class MainActivity : AppCompatActivity(){
+    private var text : TextView? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        text = findViewById(R.id.text)
+        text?.text = getInfo()
+    }
+    fun getInfo(): String {
+        return "- build type: ${BuildConfig.BUILD_TYPE}\n" +
+                "- flavor: ${BuildConfig.FLAVOR}\n "+
+                "- version name: ${BuildConfig.VERSION_NAME}\n" +
+                "- BASE_URL: ${BuildConfig.BASE}\""
+
     }
     }
 

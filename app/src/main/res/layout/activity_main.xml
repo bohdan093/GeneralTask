@@ -28,6 +28,6 @@
         android:contentDescription="@string/todo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/desktop_wallpapers_for_mac_retina6" />
+        app:srcCompat="@drawable/image" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
